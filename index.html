@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio-Egi Jaelani Febriansyah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@700;800&family=Inter:ital,wght@0,400;0,500;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+    <link href="dist/output.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="relative">
+
+        <div class="pointer-events-none absolute inset-0 z-0" aria-hidden="true">
+            <div class="mx-auto grid h-full w-[calc(100%-2rem)] max-w-[1662px] grid-cols-3 gap-x-3 lg:w-[calc(100%-6rem)] lg:grid-cols-6 lg:gap-x-6 xl:gap-x-12">
+                <div class="border-x border-neutral-300"></div>
+                <div class="border-x border-neutral-300"></div>
+                <div class="border-x border-neutral-300"></div>
+                <div class="hidden border-x border-neutral-300 lg:block"></div>
+                <div class="hidden border-x border-neutral-300 lg:block"></div>
+                <div class="hidden border-x border-neutral-300 lg:block"></div>
+            </div>
+        </div>
+
+        <!-- header start -->
+        <header class="absolute top-0 left-0 z-20 flex h-20 w-full items-center border-b border-neutral-300 bg-transparent lg:h-32">
+            <div class="relative mx-auto flex h-full w-[calc(100%-2rem)] max-w-[1662px] items-center justify-end lg:grid lg:w-[calc(100%-6rem)] lg:grid-cols-6 lg:gap-x-6 lg:pt-6 xl:gap-x-12">
+
+                <div class="pointer-events-none absolute inset-0 grid grid-cols-3 gap-x-3 lg:grid-cols-6 lg:gap-x-6 xl:gap-x-12" aria-hidden="true">
+                    <div class="border-x border-neutral-300"></div>
+                    <div class="border-x border-neutral-300"></div>
+                    <div class="border-x border-neutral-300"></div>
+                    <div class="hidden border-x border-neutral-300 lg:block"></div>
+                    <div class="hidden border-x border-neutral-300 lg:block"></div>
+                    <div class="hidden border-x border-neutral-300 lg:block"></div>
+                </div>
+
+                <button id="hamburger" name="hamburger" type="button" aria-label="Buka menu" class="relative block lg:hidden">
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                    <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+
+                <nav id="nav-menu" class="hidden absolute right-0 top-full mt-2 w-full max-w-[220px] border-2 border-black bg-white px-5 py-2 shadow-[-6px_6px_0_0_#000] lg:relative lg:right-auto lg:top-auto lg:col-span-4 lg:col-start-3 lg:mt-0 lg:block lg:max-w-none lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none">
+                    <ul class="block lg:grid lg:grid-cols-4 lg:gap-x-6 xl:gap-x-12">
+                        <li class="group">
+                            <a href="#home" class="block py-2 font-['Archivo'] text-sm font-extrabold uppercase tracking-[0.17em] text-black group-hover:text-primary lg:text-center lg:text-[length:clamp(12px,0.84vw,16px)]">Beranda</a>
+                        </li>
+                        <li class="group">
+                            <a href="#about" class="block py-2 font-['Archivo'] text-sm font-extrabold uppercase tracking-[0.17em] text-black group-hover:text-primary lg:text-center lg:text-[length:clamp(12px,0.84vw,16px)]">Tentang Saya</a>
+                        </li>
+                        <li class="group">
+                            <a href="#project" class="block py-2 font-['Archivo'] text-sm font-extrabold uppercase tracking-[0.17em] text-black group-hover:text-primary lg:text-center lg:text-[length:clamp(12px,0.84vw,16px)]">Projek</a>
+                        </li>
+                        <li class="group">
+                            <a href="#contact" class="block py-2 font-['Archivo'] text-sm font-extrabold uppercase tracking-[0.17em] text-black group-hover:text-primary lg:text-center lg:text-[length:clamp(12px,0.84vw,16px)]">Kontak</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- Hero section start -->
+        <section id="home" class="relative z-10 border-b border-neutral-300 pt-20 lg:h-[calc(100vh-8rem)] lg:min-h-[640px] lg:pt-32">
+            <div class="mx-auto flex w-[calc(100%-2rem)] max-w-[1662px] flex-col lg:h-full lg:w-[calc(100%-6rem)] lg:flex-row">
+
+                <div class="flex flex-col py-10 lg:w-[60%] lg:items-end lg:justify-center lg:pb-12 lg:pt-0 lg:pr-10 lg:text-right">
+                    <h1 class="font-['Anton'] font-normal uppercase leading-[0.98] text-black text-[17.5vw] md:text-[15vw] lg:text-[9.95vw] min-[1920px]:text-[191px]">
+                        <span class="block">Egi Jaelani</span>
+                        <span class="block">Febriansyah</span>
+                    </h1>
+                    <h2 class="mt-2 font-['Anton'] font-normal uppercase leading-none text-black text-[6.6vw] md:text-[3.5vw] lg:mt-0 lg:text-[length:clamp(20px,1.67vw,32px)]">Mahasiswa Teknik Informatika</h2>
+                    <a href="#contact" class="mt-8 inline-block w-max border-2 border-black bg-white px-4 py-5 font-['Source_Code_Pro'] text-base font-medium text-black shadow-[-6px_6px_0_0_#000] transition-all duration-200 hover:-translate-x-1.5 hover:translate-y-1.5 hover:shadow-none lg:mt-7 lg:py-[27px] lg:text-xl">Hubungi Saya</a>
+                </div>
+
+                <div class="lg:w-[40%] lg:flex-none">
+                    <img src="dist/img/image.png" alt="Egi Jaelani Febriansyah" class="aspect-[4/5] w-full object-cover object-center lg:aspect-auto lg:h-full">
+                </div>
+
+            </div>
+        </section>
+        <!-- hero section end -->
+
+        <div class="h-20 lg:h-32"></div>
+
+        <!-- about section start -->
+        <section id="about" class="relative z-10 scroll-mt-20 bg-[#1d40ff] text-white lg:scroll-mt-32">
+            <div class="pointer-events-none absolute inset-0 z-0" aria-hidden="true">
+                <div class="mx-auto grid h-full w-[calc(100%-2rem)] max-w-[1662px] grid-cols-3 gap-x-3 lg:w-[calc(100%-6rem)] lg:grid-cols-6 lg:gap-x-6 xl:gap-x-12">
+                    <div class="border-x border-white/30"></div>
+                    <div class="border-x border-white/30"></div>
+                    <div class="border-x border-white/30"></div>
+                    <div class="hidden border-x border-white/30 lg:block"></div>
+                    <div class="hidden border-x border-white/30 lg:block"></div>
+                    <div class="hidden border-x border-white/30 lg:block"></div>
+                </div>
+            </div>
+
+            <div class="relative z-10 mx-auto flex w-[calc(100%-2rem)] max-w-[1662px] flex-col py-12 lg:min-h-[calc(100vh-16rem)] lg:w-[calc(100%-6rem)] lg:pt-[7.5rem] lg:pb-6">
+                <h2 class="font-['Anton'] font-normal uppercase leading-[0.98] text-[16vw] md:text-[12vw] lg:text-[8.35vw] min-[1920px]:text-[160px]">Tentang Saya</h2>
+
+                <div class="mt-10 grid gap-10 lg:mb-10 lg:mt-14 lg:grid-cols-6 lg:gap-x-6 xl:gap-x-12">
+                    <div class="lg:col-span-3 lg:pl-5 lg:pr-4">
+                        <h3 class="font-['Anton'] font-normal uppercase leading-none text-2xl lg:text-[length:clamp(20px,1.67vw,32px)]">Mari bekerja sama</h3>
+                        <p class="mt-5 font-['Inter'] text-base leading-relaxed lg:mt-10 lg:text-[length:clamp(15px,1.2vw,23px)] lg:leading-[1.3]">Saat ini saya sedang menempuh pendidikan strata satu (S1) program studi Teknik Informatika. Saya memiliki ketertarikan mendalam pada <em>Full-stack Web Development</em>, perancangan antarmuka (UI/UX) menggunakan Figma, hingga eksplorasi arsitektur sistem berbasis <em>database</em> (MySQL/SQLite).</p>
+                    </div>
+                    <div class="lg:col-span-3 lg:pl-4">
+                        <h3 class="font-['Anton'] font-normal uppercase leading-none text-2xl lg:text-[length:clamp(20px,1.67vw,32px)]">Mari bersapa</h3>
+                        <p class="mt-5 font-['Inter'] text-base leading-relaxed lg:mt-10 lg:text-[length:clamp(15px,1.2vw,23px)] lg:leading-[1.3]">Saya terbiasa bekerja menggunakan VS Code, sistem kontrol versi Git, dan terminal command-line untuk membangun aplikasi yang bersih dan terstruktur. Jangan ragu untuk menghubungi saya—baik untuk diskusi teknologi, penawaran proyek kolaborasi, atau sekadar berbagi insight!</p>
+                    </div>
+                </div>
+                <a href="https://github.com/egi616" target="_blank" rel="noopener noreferrer" aria-label="GitHub Egi Jaelani" class="mt-12 flex h-16 w-16 flex-none items-center justify-center self-end rounded-full bg-white text-black transition duration-200 hover:scale-105 lg:mt-auto lg:h-[118px] lg:w-[118px]">
+                    <svg class="h-8 w-8 fill-current lg:h-[60px] lg:w-[60px]" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+            </div>
+        </section>
+        <!-- about section end -->
+
+        <!-- projek section start -->
+        <section id="project" class="relative z-10 scroll-mt-20 bg-[#0a0303] text-white lg:scroll-mt-32">
+            <div class="pointer-events-none absolute inset-0 z-0" aria-hidden="true">
+                <div class="mx-auto grid h-full w-[calc(100%-2rem)] max-w-[1662px] grid-cols-3 gap-x-3 lg:w-[calc(100%-6rem)] lg:grid-cols-6 lg:gap-x-6 xl:gap-x-12">
+                    <div class="border-x border-white/25"></div>
+                    <div class="border-x border-white/25"></div>
+                    <div class="border-x border-white/25"></div>
+                    <div class="hidden border-x border-white/25 lg:block"></div>
+                    <div class="hidden border-x border-white/25 lg:block"></div>
+                    <div class="hidden border-x border-white/25 lg:block"></div>
+                </div>
+            </div>
+
+            <div class="relative z-10 mx-auto w-[calc(100%-2rem)] max-w-[1662px] pb-12 lg:min-h-[calc(100vh-16rem)] lg:w-[calc(100%-6rem)]">
+                <h2 class="py-10 text-center font-['Anton'] font-normal uppercase leading-none text-2xl lg:py-[3.75rem] lg:text-[length:clamp(20px,1.67vw,32px)]">Projek Terbaru</h2>
+
+                <div class="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-x-6 xl:gap-x-12">
+
+                    <article>
+                        <a href="https://github.com/egi616/Kumpulan-Tugas-Piranti-Bergerak/tree/main/tugas_pertemuan3" target="_blank" rel="noopener noreferrer" aria-label="Buka repository BMI Calculator di GitHub" class="group block aspect-video overflow-hidden bg-neutral-300">
+                            <img src="dist/img/project/bmical.png" alt="BMI Calculator" class="h-full w-full object-contain transition duration-300 group-hover:scale-105">
+                        </a>
+                        <div class="pl-2.5">
+                            <h3 class="mt-5 font-['Archivo'] text-base font-extrabold uppercase tracking-[0.03em] lg:text-[length:clamp(14px,1.04vw,20px)]">BMI Calculator</h3>
+                            <p class="mt-2.5 font-['Inter'] text-base leading-relaxed lg:text-[length:clamp(15px,1.2vw,23px)] lg:leading-[1.3]">Aplikasi berbasis piranti bergerak (mobile) yang dirancang secara interaktif untuk membantu pengguna menghitung dan mengkategorikan Body Mass Index (BMI) berdasarkan input tinggi dan berat badan.</p>
+                        </div>
+                    </article>
+
+                    <article>
+                        <a href="https://github.com/egi616/tubes-siakad-ifb2024-egijaelanifebrianysah" target="_blank" rel="noopener noreferrer" aria-label="Buka repository Siakad di GitHub" class="group block aspect-video overflow-hidden bg-neutral-300">
+                            <img src="dist/img/project/siakad.png" alt="Siakad" class="h-full w-full object-cover transition duration-300 group-hover:scale-105">
+                        </a>
+                        <div class="pl-2.5">
+                            <h3 class="mt-5 font-['Archivo'] text-base font-extrabold uppercase tracking-[0.03em] lg:text-[length:clamp(14px,1.04vw,20px)]">Siakad</h3>
+                            <p class="mt-2.5 font-['Inter'] text-base leading-relaxed lg:text-[length:clamp(15px,1.2vw,23px)] lg:leading-[1.3]">Prototipe antarmuka Sistem Informasi Akademik (SIAKAD) yang dikembangkan untuk memudahkan pengelolaan manajemen data pendidikan, jadwal perkuliahan, dan pencatatan nilai secara digital.</p>
+                        </div>
+                    </article>
+
+                    
+                </div>
+            </div>
+        </section>
+        <!-- projek section end -->
+
+        <!-- contact section start -->
+        <section id="contact" class="relative z-10 scroll-mt-20 border-y border-neutral-300 text-[#0a0303] lg:scroll-mt-32">
+            <div class="mx-auto w-[calc(100%-2rem)] max-w-[1662px] py-12 lg:min-h-[calc(100vh-16rem)] lg:w-[calc(100%-6rem)] lg:pt-7 lg:pb-0">
+                <h2 class="font-['Anton'] font-normal uppercase leading-[0.98] text-[16vw] md:text-[13vw] lg:text-[9.9vw] min-[1920px]:text-[190px]">Hubungi Saya</h2>
+
+                <div class="mt-10 lg:mt-[4.4rem] lg:grid lg:grid-cols-6 lg:gap-x-6 xl:gap-x-12">
+                    <form id="contact-form" action="mailto:egijaelani1010@gmail.com" method="post" enctype="text/plain" class="lg:col-span-4 lg:col-start-2 xl:col-span-2 xl:col-start-3">
+                        <label for="name" class="mb-3.5 block font-['Anton'] text-2xl font-normal uppercase leading-none lg:text-[length:clamp(20px,1.67vw,32px)]">Nama</label>
+                        <input type="text" id="name" name="name" required placeholder="Nama kamu" class="mb-[18px] block h-14 w-full rounded-lg border border-[#0a0303] bg-white px-4 font-['Inter'] text-lg text-[#0a0303] placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#0a0303]/20 lg:h-16">
+
+                        <label for="email" class="mb-3.5 block font-['Anton'] text-2xl font-normal uppercase leading-none lg:text-[length:clamp(20px,1.67vw,32px)]">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="email@contoh.com" class="mb-[18px] block h-14 w-full rounded-lg border border-[#0a0303] bg-white px-4 font-['Inter'] text-lg text-[#0a0303] placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#0a0303]/20 lg:h-16">
+
+                        <label for="message" class="mb-3.5 block font-['Anton'] text-2xl font-normal uppercase leading-none lg:text-[length:clamp(20px,1.67vw,32px)]">Pesan</label>
+                        <textarea id="message" name="message" required placeholder="Tulis pesanmu di sini" class="block h-[120px] w-full resize-none rounded-lg border border-[#0a0303] bg-white px-4 py-4 font-['Inter'] text-lg text-[#0a0303] placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#0a0303]/20"></textarea>
+
+                        <div class="mt-7 flex justify-end">
+                            <button type="submit" class="w-[178px] border-2 border-black bg-white px-4 py-5 text-center font-['Source_Code_Pro'] text-base font-medium text-black shadow-[-6px_6px_0_0_#000] transition-all duration-200 hover:-translate-x-1.5 hover:translate-y-1.5 hover:shadow-none lg:py-[27px] lg:text-xl">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- contact section end -->
+
+        <!-- footer start -->
+        <footer class="relative z-10 flex h-32 items-center">
+            <div class="mx-auto w-[calc(100%-2rem)] max-w-[1662px] text-right lg:w-[calc(100%-6rem)]">
+                <a href="mailto:egijaelani1010@gmail.com" class="inline-block pr-2.5 font-['Anton'] text-2xl font-normal uppercase leading-none text-[#0a0303] hover:underline lg:text-[length:clamp(20px,1.67vw,32px)]">egijaelani1010@gmail.com</a>
+            </div>
+        </footer>
+        <!-- footer end -->
+    </div>
+
+<script src="dist/js/script.js"></script>
+</body>
+</html>
